@@ -1,0 +1,46 @@
+// section 1
+#hero {
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.hero {
+  height: 525px;
+  color: $COLOR_WHITE;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu__item {
+  align-items: center;
+}
+
+.slogan {
+  text-shadow: 4px 4px $COLOR_TEXT;
+}
+
+// section 2
+.title {
+  //shop by category
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+.product__item {
+  line-height: 397px;
+  flex-direction: column;
+}
+
+// section 3
+.spring {
+  background: no-repeat bottom scroll;
+  height: 580px;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.new-arrivals__text:last-child {
+  padding: 25px 0;
+}

@@ -1,0 +1,22 @@
+#footer {
+  background: $COLOR_TEXT;
+  color: $COLOR_WHITE;
+}
+
+.footer {
+  justify-content: space-between;
+}
+
+// .footer__upper-box {
+//   flex-direction: row;
+// }
+
+.footer__upper {
+  flex-direction: column;
+  margin: 20px;
+}
+
+.footer__upper a {
+  color: $COLOR_WHITE;
+  margin: 5px;
+}

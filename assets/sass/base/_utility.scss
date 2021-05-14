@@ -1,0 +1,58 @@
+.d-flex {
+  display: flex;
+}
+
+.no-marg {
+  margin: 0 auto;
+}
+
+.half-marg {
+  margin: 0px auto 50px;
+  padding-bottom: 20px;
+}
+
+.full-marg {
+  margin: 50px auto;
+  padding: 20px 0;
+}
+
+// images, icons, texts
+.i {
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.logo {
+  width: 10%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.caption {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 0;
+}
+
+// alignments
+.center {
+  align-items: center;
+  text-align: center;
+}
+
+.middle {
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.end {
+  align-items: flex-end;
+  justify-content: center;
+}

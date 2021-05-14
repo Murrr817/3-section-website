@@ -1,0 +1,62 @@
+.btn-group {
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.btn {
+  background: $COLOR_TEXT;
+  color: $COLOR_WHITE;
+  padding: 12px 26px;
+  border-radius: 8px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  background: transparent;
+  padding: 10px 24px;
+  border: 2px solid $COLOR_TEXT;
+  color: $COLOR_TEXT;
+}
+
+.btn:nth-child(odd) {
+  margin-right: 24px;
+}
+
+// HEADER BUTTONS
+.btn__secondary {
+  background: $COLOR_WHITE;
+  color: $COLOR_TEXT;
+  margin-bottom: 20px;
+}
+
+.btn__secondary:hover {
+  background: $COLOR_TEXT;
+  color: $COLOR_WHITE;
+}
+
+// BUTTON ARROW
+.btn__icon-only {
+  display: inline-flex;
+  background: $COLOR_TEXT;
+  color: $COLOR_WHITE;
+  border-radius: 50%;
+  width: 52px;
+  height: 50px;
+  padding: 8px;
+}
+
+.btn__icon-only i {
+  line-height: 35px;
+  width: 35px;
+  text-align: center;
+}
+
+.btn__icon-only:hover {
+  background: transparent;
+  padding: 6px;
+  border: 2px solid $COLOR_TEXT;
+  color: $COLOR_TEXT;
+}
